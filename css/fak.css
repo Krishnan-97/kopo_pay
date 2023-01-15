@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu:wght@300;400&display=swap');
+.landing-div {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.landing-div-body{
+
+    background: rgb(16,218,212);
+    background: linear-gradient(5deg, rgba(16,218,212,1) 10%, rgba(0,228,237,1) 47%);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.navbar{
+    height: 10%;
+}
+.navbar-logo {
+    width: 130px;
+    
+}
+.navbar-button {
+    text-decoration: none;
+    color: #4bbedd;
+    border: solid 2px #4bbedd;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size:12px;
+    font-weight:bolder;
+}
+.navbar-button:hover {
+    color: white;
+    background-color: #4bbedd;
+}
+.vl {
+    border-left: 2px solid #BEBEBE;
+    height: 30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.sign-up-btn {
+    margin-left: 10px;
+    padding: 5px 16px;
+    background-color: #4bbedd;
+    color:white;
+}
+.sign-up-btn:hover {
+    color: #4bbedd;
+    border: solid 2px #4bbedd;
+    background-color:white;
+}
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+.scan-img{
+    max-width: 500px;
+    max-height: 500px;
+}
+.phone-img{
+    max-width: 600px;
+    max-height: 440px;
+}
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.landing-big{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.header-black{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.page-two-text{
+    font-size: 30px;
+}
+.landing-small{
+    color: white;
+}
+.landing-btn{
+    display: inline-block;
+    font-weight:400;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: #4bbedd;
+    padding: 10px 30px;
+    width: fit-content;
+    color: white;
+    border-radius: 30px;
+}
+.page-two-logo{
+    max-width: 80px;
+    max-height:80px;
+}
+.page-two-tab{
+    height: 100px;
+    width: 900px;
+    margin-top: 15px;
+    font-size:15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.banking-container{
+   
+    background-image: url("../img/about-background.webp");
+    background-repeat:no-repeat;
+    
+    background-size:cover;
+}
+.abt-container{
+    background: rgb(16,218,212);
+    background: linear-gradient(5deg, rgba(16,218,212,1) 10%, rgba(0,228,237,1) 47%);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.page-2-small{
+    margin-top: 26px;
+    font-size: 12px;
+}
+.dot {
+    height: 650px;
+    width: 550px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .page-two{
+    width:100%;
+    padding-bottom: 50px;
+    background-color: #F5F7FA;
+  }
+
+  .page-two-container{
+    padding-top: 80px;
+  }
+
+  .page-two-heading{
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  .page-two-container-white{
+    margin-top: 25px;
+    
+    background-color: white;
+    border-radius: 20px;
+  }
+  .p2-1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+  .page-three{
+    background-color: #F5F7FA;
+    padding-bottom: 80px;
+  }
+
+  .page-three-heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .page-four{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(16,218,212);
+    background: linear-gradient(5deg, rgba(16,218,212,1) 10%, rgba(0,228,237,1) 47%);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .page-four-text{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .sebatti{
+    height: 60px;  background-color: white;
+    color: black;
+    width: fit-content;
+  }
+
+  .calc-mob-div{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    width: 394px;
+  }
+  .top-left {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+  }
+  .top-left-2 {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+  }
+  .mob-text{
+    color:white;
+    font-size: large;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("../img/security-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-1 {
+    /* The image used */
+    background-image: url("../img/deserve-more-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url("../img/car4.png");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax-big-text{
+    color:white;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .parallax-semi-big-text{
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .parallax-small-text{
+    color:white;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .parallax-btn{
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 20px 65px;
+    font-size:24px;
+  }
+
+  .footer-horizontl-bar{
+    border-top:1px solid #BEBEBE; 
+    margin-left:30px;
+    margin-right: 30px;
+  }
+
+  .just-another-dash{
+    border-top:1px solid #BEBEBE; 
+    margin-left:160px;
+    margin-right:160px;
+   
+  }
+
+  .footer-by-ksk{
+    padding-top:100px;
+  }
+
+
+ 
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-28 18:8:13
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-28 12:30:7
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  

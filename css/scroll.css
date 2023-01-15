@@ -1,0 +1,22 @@
+.scrollbar-2 {
+  scrollbar-width: thin;
+  scrollbar-color: #138389 white;
+}
+
+.scrollbar-2::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar-2::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.scrollbar-2::-webkit-scrollbar-thumb {
+  background-color: #138389;
+}
+
+.scrollbar-2::-webkit-scrollbar-track, .scrollbar-2::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+}
+/*# sourceMappingURL=scroll.css.map */

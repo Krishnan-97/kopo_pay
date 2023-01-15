@@ -1,0 +1,28 @@
+.scrollbar-2 {
+	$scrollbar-2-thumb-width: 10px;
+	$scrollbar-2-thumb-color: #138389;
+	$scrollbar-2-track-color: white;
+	
+    // Chrome & Opera
+    &::-webkit-scrollbar {
+       width: $scrollbar-2-thumb-width;
+		 height: $scrollbar-2-thumb-width;
+
+       &-track {
+           background-color: $scrollbar-2-track-color;
+       }
+
+       &-thumb {
+          background-color: $scrollbar-2-thumb-color;
+       }
+		 
+		 &-track,
+		 &-thumb {
+			 border-radius: 12px;
+		 }
+    }
+
+    // Firefox
+    scrollbar-width: thin;
+    scrollbar-color: $scrollbar-2-thumb-color $scrollbar-2-track-color;
+}
