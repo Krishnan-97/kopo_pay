@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fak.css" />
     <link rel="stylesheet" href="css/scroll.css" />
+    <link rel="stylesheet" href="css/phone-parallax.css" />
     <title>Kopo</title>
   </head>
   <body class="scrollbar-2">
@@ -93,6 +94,42 @@
         </div>
       </div>
     </div>
+
+    
+      <section class="about">
+        <div class="about-title">
+            <p class="para-phn-left">
+              Varo gives you more ways to take control of your money.
+            </p>
+           
+        </div>
+  
+        <div class="about-pages">
+         
+            <div >
+                <img src="img/parallax-phn-1.png" style="width:300px;height: 500px;">
+                <p class="para-phn-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  nec sollicitudin mauris. Mauris sed porta tortor.</p>
+            </div>
+           
+              <div >
+                 
+                  <img src="img/parallax-phn-2.png" style="width:300px;height: 500px;">
+                  <p class="para-phn-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    nec sollicitudin mauris. Mauris sed porta tortor.</p>
+              </div>
+             
+                <div >
+                    
+                    <img src="img/parallax-phn-3.png" style="width:300px;height: 500px;">
+                    <p class="para-phn-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                      nec sollicitudin mauris. Mauris sed porta tortor.</p>
+                </div>
+        </div>
+    </section>
+
+
+    
 
 
 
@@ -349,13 +386,37 @@ receipt of a probable cause warrant.
             </p>
           
               <div class="form-group">
-                <label for="n1">Number 1</label>
+                <label for="n1">Initial deposit</label>
                 <input type="number" class="form-control" id="n1" placeholder="Number 1">
               </div>
 
               <div class="form-group">
-                <label for="n2">Number 2</label>
+                <label for="n2">Monthly contribution</label>
                 <input type="number" class="form-control" id="n2" placeholder="Number 2">
+              </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col" style="padding:0;">
+                    <div class="form-group">
+                      <label for="n3">Over a period of</label>
+                      <input type="number" class="form-control" id="n3" placeholder="Number 2">
+                    </div>
+                  </div>
+                  <div class="col my-auto">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">months</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">years</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="n4">APY</label>
+                <input type="number" class="form-control" id="n4" placeholder="Number 2">
               </div>
              
               <button class="btn btn-primary" onclick="calc()">Submit</button>
@@ -621,6 +682,10 @@ receipt of a probable cause warrant.
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/phone-parallax.js "></script>
+    
     <script>
       /* lazyload.js (c) Lorenzo Giuliani
        * MIT License (http://www.opensource.org/licenses/mit-license.html)
