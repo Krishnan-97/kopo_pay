@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,CAAC;CAIX;;AALH,AAEI,WAFO,AAEN,QAAQ,CAAC;EACR,SAAS,EAAE,mBAAmB;CAC/B;;AAGH,UAAU,CAAV,OAAU;EACR,EAAE;IACA,OAAO,EAAE,CAAC;;EAEZ,IAAI;IACF,OAAO,EAAE,CAAC",
+    "sources": [
+        "blubla.scss"
+    ],
+    "names": [],
+    "file": "blubla.css"
+}
