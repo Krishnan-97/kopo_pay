@@ -9,6 +9,72 @@
     <link rel="stylesheet" href="css/psych.css" />
     <link rel="stylesheet" href="css/trivela.css" />
     <style> 
+
+.oscillate {
+  display: inline-block;
+  animation: oscillate 2s ease-in-out infinite;
+}
+
+.oscillate img {
+  display: inline-block;
+}
+
+@keyframes oscillate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*.container-fgg {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.static-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oscillating-image {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  animation: oscillatee 2s ease-in-out infinite;
+}
+
+@keyframes oscillatee {
+  0% {
+    left: -50px;
+    transform: rotate(0deg);
+  }
+  50% {
+    left: 50px;
+    transform: rotate(10deg);
+  }
+  100% {
+    left: -50px;
+    transform: rotate(0deg);
+  }
+}*/
+
+
+
+
+canvas {
+      
+      display: block;
+      margin: 0 auto;
+    }
+    
       @font-face {
          font-family: myFirstFont;
          src: url(fonts/IBMPlexMono-Regular.ttf);
@@ -49,7 +115,7 @@
             </div>
           </nav>
           <div class="landing-body">
-            <div class="container h-100">
+            <div class="container  h-100 ">
                 <div class="row h-100 justify-content-center align-items-center">
                   <div class="col-6 col-xs-2" data-aos="fade-right">
                     <div class="landing-big">
@@ -82,7 +148,14 @@
                   
                   </div>
                   <div class="col">
-                    <img class="img-first" src="img/scan-overlay.png" data-aos="fade-left">
+                    
+                    <!--img class="img-first" src="img/scan-overlay.png" data-aos="fade-left"-->
+
+                    <div class="oscillate">
+                      <img class="img-first" src="img/scan-overlay.png">
+                    </div>
+                    
+                    
                     <!--div class="container-fluid mao" >
                       <div class="row">
                         <div class="col kop-1">
@@ -107,7 +180,11 @@
             <div class="inner sticky">
               <div>
                 <p class="para-phn-left" >
-                  <h1 style="font-family: MyFirstFontBold; margin-top: 200px;" data-aos="fade-in">Payment has never been this easy.</h1>
+                  <h1 style="font-family: MyFirstFontBold; margin-top: 200px;" data-aos="fade-in">Getting started</h1>
+                  <ul>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Download the app</h3></li>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Create your account</h3></li>
+                  </ul>
                 </p>
               </div> 
             </div>
@@ -120,7 +197,8 @@
                   <img class="ggg-89" src="img/par-phn-1.png" data-aos="fade-in">
                 </div>
                   <div class="wee-02">
-                      <h4><p class="para-phn-right" data-aos="fade-in">Make bank transfer to recepiets account or send money to mobile number linked to user account.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Download the app:</b>Get the app from your device's app store and install it on your phone.</p></h4>
+                      
   
                   </div>
                  
@@ -132,7 +210,7 @@
                     <img class="ggg-89" src="img/par-phn-2.png" data-aos="fade-in">
                   </div>
                     <div class="wee-02">
-                      <h4>                  <p class="para-phn-right" data-aos="fade-in">Verify recepient account and pay desired amount, it's that simple. With complete list of transaction details you have complete control.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Create your account:</b>Sign up for an account by providing your personal information and payment details.</p></h4>
                     </div>
                 </div>
 
@@ -144,7 +222,11 @@
             <div class="inner sticky">
               <div >
                 <p class="para-phn-left" >
-                  <h1 style="font-family: MyFirstFontBold;" data-aos="fade-in">Payment has never been this easy.</h1>
+                  <h1 style="font-family: MyFirstFontBold; margin-top: 200px;" data-aos="fade-in">Making payments</h1>
+                  <ul>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Link your payment methods</h3></li>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Make a payment</h3></li>
+                  </ul>
                 </p>
               </div> 
             </div>
@@ -157,7 +239,7 @@
                   <img class="ggg-89" src="img/par-phn-1.png" data-aos="fade-in">
                 </div>
                   <div class="wee-02">
-                      <h4><p class="para-phn-right" data-aos="fade-in">Make bank transfer to recepiets account or send money to mobile number linked to user account.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Link your payment methods:</b>Connect your credit cards, bank accounts, or other payment methods to your account.</p></h4>
   
                   </div>
                  
@@ -169,7 +251,8 @@
                     <img class="ggg-89" src="img/par-phn-2.png" data-aos="fade-in">
                   </div>
                     <div class="wee-02">
-                      <h4>                  <p class="para-phn-right" data-aos="fade-in">Verify recepient account and pay desired amount, it's that simple. With complete list of transaction details you have complete control.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Make a payment:</b>Choose the recipient, enter the amount, and confirm the transaction with a fingerprint or PIN.</p></h4>
+                     
                     </div>
                 </div>
 
@@ -181,7 +264,11 @@
             <div class="inner sticky">
               <div >
                 <p class="para-phn-left" >
-                  <h1 style="font-family: MyFirstFontBold;" data-aos="fade-in">Payment has never been this easy.</h1>
+                  <h1 style="font-family: MyFirstFontBold; margin-top: 200px;" data-aos="fade-in">Managing your account</h1>
+                  <ul>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Receive payments</h3></li>
+                    <li><h3 style="font-family: MyFirstFontBold;" data-aos="fade-in">Manage your transactions</h3></li>
+                  </ul>
                 </p>
               </div> 
             </div>
@@ -194,7 +281,7 @@
                   <img class="ggg-89" src="img/par-phn-1.png" data-aos="fade-in">
                 </div>
                   <div class="wee-02">
-                      <h4><p class="para-phn-right" data-aos="fade-in">Make bank transfer to recepiets account or send money to mobile number linked to user account.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Receive payments:</b>Get paid by sharing your account information or QR code with others</p></h4>
   
                   </div>
                  
@@ -206,7 +293,7 @@
                     <img class="ggg-89" src="img/par-phn-2.png" data-aos="fade-in">
                   </div>
                     <div class="wee-02">
-                      <h4>                  <p class="para-phn-right" data-aos="fade-in">Verify recepient account and pay desired amount, it's that simple. With complete list of transaction details you have complete control.</p></h4>
+                      <h4><p class="para-phn-right" data-aos="fade-in"><b>Manage your transactions:</b>View your transaction history, track pending payments, and manage your account settings.</p></h4>
                     </div>
                 </div>
                 
@@ -270,13 +357,18 @@
           <div class="row h-100 justify-content-center align-items-center">
             <div class="col">
               <div>
-                <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">WHAT MAKES US UNIQUE AND RELIABLE WITH SAFETY.</h1></p>
-                <p class="parallax-semi-big-text text-color-white"><h4 class="text-color-white">what’s yours remains only yours.</h4></p>
-                <p class="parallax-small-text text-color-white"><h4 class="text-color-white" style="margin-bottom: 40px;">CRED ensures that all your personal data and transactions are encrypted, and secured so what’s yours remains only yours. there’s no room for mistakes because we didn’t leave any.</h4></p>
+                <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">What makes KopoPay unique.</h1></p>
+                <p class="parallax-semi-big-text text-color-white"><h4 class="text-color-white">Our mobile payment app with facial recognition comes with a range of features that make it easy and convenient to make payments and manage your finances. Here are some of the key features that you can expect from our app:</h4></p>
+                <p class="parallax-small-text text-color-white">
+                  Fast and convenient payments: With facial recognition technology, making a payment is as easy as holding up your phone to the payment terminal. There's no need to fumble with cash, cards, or PINs - simply scan your face and go.<br>
+                  Secure transactions: Facial recognition technology ensures that only you can make transactions using your account. Plus, all transactions are encrypted and protected by state-of-the-art security measures to ensure that your financial data is always safe.<br>
+                  Peer-to-peer payments: With our app, you can transfer money to other app users in just a few clicks.
+                  
+                  </p>
               </div>
-              <div class="hui-9">
+              <!--div class="hui-9">
                 <a class="parallax-btn" href="#">Read more</a>
-              </div>
+              </div-->
              
               
             </div>
@@ -291,13 +383,13 @@
           <div class="row h-100 justify-content-center align-items-center">
             <div class="col">
               <div>
-                <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">WHAT MAKES US UNIQUE AND RELIABLE WITH SAFETY.</h1></p>
-                <p class="parallax-semi-big-text text-color-white"><h4 class="text-color-white">what’s yours remains only yours.</h4></p>
-                <p class="parallax-small-text text-color-white"><h4 class="text-color-white" style="margin-bottom: 40px;">CRED ensures that all your personal data and transactions are encrypted, and secured so what’s yours remains only yours. there’s no room for mistakes because we didn’t leave any.</h4></p>
+                <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">What is Facial Recognition?</h1></p>
+                <p class="parallax-semi-big-text text-color-white">Facial recognition technology is a biometric authentication method that uses algorithms to analyze and compare an individual's facial features against a database of faces. By comparing features such as the distance between the eyes, nose, and mouth, the system can verify the identity of the person trying to access the app.</p>
+                <p class="parallax-small-text text-color-white">In the context of mobile payments, facial recognition offers a fast, convenient, and secure alternative to traditional payment methods such as cash, credit cards, or even fingerprints. Instead of having to remember a PIN or carry a physical card, users can simply hold up their phone to the payment terminal and let the app scan their face to complete the transaction.</p>
               </div>
-              <div class="hui-9">
+              <!--div class="hui-9">
                 <a class="parallax-btn" href="#">Read more</a>
-              </div>
+              </div-->
              
               
             </div>
@@ -348,15 +440,11 @@
   
               <div class="col gtt-89" data-aos="fade-left">
                 <p class="p2-1">
-                  <h1 style="font-family: myFirstFontBold;">WORLD’S FIRST FACIAL SCAN PAYMENT APP</h1>
+                  <h1 style="font-family: myFirstFontBold;">Experience the convenience and security of mobile payments with our app's integrated card payment facility</h1>
                 </p>
                 <div class="woo-33">
-                  <p style="font-family: myFirstFontMedium;">Guaranteed safety and privacy of the data collected for biometrics</p>
-                <p style="font-family: myFirstFontMedium;">User Access to delete their facial information, along with records of any
-                  changes made to the data</p>
-                  <p style="font-family: myFirstFontMedium;">KOPO defines policies for compliance and use of data while offering the
-                    necessary technical measures to verify accountability, emphasizing on
-                    transparency</p>
+                  <p style="font-family: myFirstFontMedium;">Make payments with ease using our mobile payment app. Our app offers the convenience of paying with your mobile device while also providing the option to add and use your credit or debit card. With our app, you can securely store your card information and make transactions with just a few taps. Plus, our app offers features such as transaction history and easy card management, making it simple to keep track of your spending. Experience the convenience of mobile payments with the added security of card payment options</p>
+                
                 </div>
                 <!--a href="#" class="goo-333">Learn more &#8594</a-->
                 
@@ -372,13 +460,11 @@
               <div class="col guu-55" data-aos="fade-right">
       
                 <p class="p2-1">
-                  <h1 style="font-family: myFirstFontBold;">WORLD’S FIRST FACIAL SCAN PAYMENT APP</h1>
+                  <h1 style="font-family: myFirstFontBold;">We ensure that you are best insured</h1>
                 </p>
                 <div class="sugu-34" >
                   <p style="font-family: myFirstFontMedium;">
-                    Buying Insurance is no longer time-consuming and confusing. KOPO insurance
-                    offers Insurance Distribution aggregator , Distribution platform for Auto, life,
-                    General and health insurance in the most convenient and simple way.
+                    Protect what matters most with our insurance coverage. Our mobile app makes it easy to manage your policies, file claims, and get support when you need it. Whether you're looking for auto, home, or life insurance, we've got you covered. With our competitive rates and personalized service, you can rest easy knowing you're in good hands.
                   </p>
                 
                 </div>
@@ -454,18 +540,93 @@
           </div>
 
 
+          <script>
+            // Create a canvas element to display the animation
+              // Create a canvas element to display the animation
+              var canvas = document.createElement("canvas");
+              canvas.width = window.innerWidth;
+              canvas.height = 1000;
+              document.body.appendChild(canvas);
+
+              // Define the QR code image
+              var qrCodeImage = new Image();
+              qrCodeImage.src = "img/scan.png";
+
+              // Define the mobile device image
+              var mobileImage = new Image();
+              mobileImage.src = "img/yeuuu1.png";
+
+              // Define the animation parameters
+              var qrCodeX = 150;
+              var qrCodeY = 150;
+              var mobileX = -100;
+              var mobileY = 200;
+              var mobileSpeed = 2;
+              var qrCodeOpacity = 0;
+              var qrCodeOpacitySpeed = 0.01;
+              //var animationFinished = false;
+
+              // Define the animation loop
+              function animate() {
+  // Clear the canvas
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                // Draw the QR code image
+                ctx.globalAlpha = qrCodeOpacity;
+                ctx.drawImage(qrCodeImage, qrCodeX, qrCodeY);
+
+                // Draw the mobile device image
+                ctx.globalAlpha = 1;
+                ctx.drawImage(mobileImage, mobileX, mobileY);
+
+                // Update the animation parameters
+                qrCodeOpacity += qrCodeOpacitySpeed;
+                if (qrCodeOpacity >= 1) {
+                  qrCodeOpacitySpeed = 0;
+                  mobileX += mobileSpeed;
+                  if (mobileX >= canvas.width) {
+                    mobileImage.src = 'img/oscillating-image-2.png';
+                    mobileX = -100;
+                    qrCodeOpacity = 0;
+                    qrCodeOpacitySpeed = 0.01;
+                    
+                  }
+                }
+
+                // Request the next animation frame
+                requestAnimationFrame(animate);
+              }
+
+              // Start the animation
+              var ctx = canvas.getContext("2d");
+              qrCodeImage.onload = function() {
+                animate();
+              };
+
+              
+              
+setInterval(() => {
+  if (mobileImage.src.endsWith('oscillating-image-1.png')) {
+    mobileImage.src = 'img/oscillating-image-2.png';
+  } else {
+    mobileImage.src = 'img/oscillating-image-1.png';
+  }
+}, 4000);
+          </script>
+
+
           <div class="parallax-3">
             <div class="container h-100">
               <div class="row h-100 justify-content-center align-items-center">
                 <div class="col">
                   <div>
-                    <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">WHAT MAKES US UNIQUE AND RELIABLE WITH SAFETY.</h1></p>
-                    <p class="parallax-semi-big-text text-color-white"><h4 class="text-color-white">what’s yours remains only yours.</h4></p>
-                    <p class="parallax-small-text text-color-white"><h4 class="text-color-white" style="margin-bottom: 40px;">CRED ensures that all your personal data and transactions are encrypted, and secured so what’s yours remains only yours. there’s no room for mistakes because we didn’t leave any.</h4></p>
+                    <p class="parallax-big-text text-color-white"><h1 class="text-color-white" style="font-family: MyFirstFontBold;">SHOPPING IS FUN, WITH KOPO IT'S EASY ON WALLET TOO.</h1></p>
+                    <p class="parallax-semi-big-text text-color-white"><h4 class="text-color-white">Our mobile app offers a seamless shopping experience with features like one-click ordering, personalized recommendations, and easy tracking of orders. Get all the convenience of online shopping in the palm of your hand. One-liner: "Shop on the go with our mobile app's convenient features, including one-click ordering and personalized recommendations.</h4></p>
+                    
                   </div>
-                  <div class="hui-9">
+                  <!--div class="hui-9">
                     <a class="parallax-btn" href="#">Read more</a>
-                  </div>
+                  </div-->
                  
                   
                 </div>
@@ -632,6 +793,14 @@ positioned at the checkout in stores)
             </p>
           </div>
 
+
+          <!--div class="container-fgg">
+            <img src="img/scan.png" class="static-image">
+            <img src="img/oscillating-image-1.png" class="oscillating-image">
+          </div-->
+          
+
+                   
           <div class="footer-horizontl-bar"></div>
 
     <div class="footer-by-ksk">
@@ -741,12 +910,19 @@ positioned at the checkout in stores)
     </div>
    
   
-     
+    
+          <!--script>
+            const oscillatingImage = document.querySelector('.oscillating-image');
 
+setInterval(() => {
+  if (oscillatingImage.src.endsWith('oscillating-image-1.png')) {
+    oscillatingImage.src = 'img/oscillating-image-2.png';
+  } else {
+    oscillatingImage.src = 'img/oscillating-image-1.png';
+  }
+}, 3000);
 
-
-
-
+          </script-->
     
           <script>
             function calc(){
@@ -768,6 +944,7 @@ positioned at the checkout in stores)
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
     <script src="js/phone-parallax.js "></script>
+    
     <script>
       AOS.init();
     </script>

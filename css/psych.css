@@ -179,6 +179,18 @@
   
 }
 
+.nnnoo{
+  list-style: none;
+}
+.nnnoo li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
 .para-phn-left{
     
     max-width: 50%;
